@@ -29,38 +29,7 @@ int base(int l){
 
 int main(){
   // Instructions:
-    const int VALOR = 5;
-
-  // Main:
-    code[0].f = INT; code[0].l = 0; code[0].a = 3;
-    code[1].f = LIT; code[1].l = 0; code[1].a = VALOR;     // Valor que será calculado o fatorial
-    code[2].f = STO; code[2].l = 0; code[2].a = 3 + 3;     // Passa como parâmetro
-    code[3].f = CAL; code[3].l = 0; code[3].a = 6;         // Chama a função
-    code[4].f = LOD; code[4].l = 0; code[4].a = 3 + 4;     // Pega o resultado da função
-    code[5].f = OPR; code[5].l = 0; code[5].a = 0;
-
-  // Função: f(x) = x!
-    code[6].f = INT; code[6].l = 0; code[6].a = 5;
-    code[7].f = LOD; code[7].l = 0; code[7].a = 3;         // Carrega o parâmetro
-    code[8].f = LIT; code[8].l = 0; code[8].a = 1;         // Carrega 1 para verificar a parada
-    code[9].f = OPR; code[9].l = 0; code[9].a = 13;        // Verifica se N é menor igual a 1
-    code[10].f = JPC; code[10].l = 0; code[10].a = 13;     // Se não for, vai fazer n*fatorial(n-1);
-
-  // IF (n <= 1)
-    code[11].f = STO; code[11].l = 0; code[11].a = 4;      // Caso seja, retorna 1
-    code[12].f = OPR; code[12].l = 0; code[12].a = 0; 
-  // ELSE
-    code[13].f = LOD; code[13].l = 0; code[13].a = 3;      // Carrega o parametro
-    code[14].f = LIT; code[14].l = 0; code[14].a = 1;      // Carrega 1 para fazer a subtração
-    code[15].f = OPR; code[15].l = 0; code[15].a = 3;      // Faz a subtração
-    code[16].f = STO; code[16].l = 0; code[16].a = 5 + 3;  // Passa como parâmetro
-    code[17].f = CAL; code[17].l = 0; code[17].a = 6;      // Chama a função pra fatorial(n-1)
-    code[18].f = LOD; code[18].l = 0; code[18].a = 5 + 4;  // Pega o resultado da recursão
-    code[19].f = LOD; code[19].l = 0; code[19].a = 3;      // Carrega o N atual
-    code[20].f = OPR; code[20].l = 0; code[20].a = 4;      // Faz a multiplicação n*fatorial(n-1)
-    code[21].f = STO; code[21].l = 0; code[21].a = 4;      // Salva o retorno
-    code[22].f = OPR; code[22].l = 0; code[22].a = 0;
-    
+    code[0].f = OPR; code[0].l = 0; code[0].a = 0;
 
   // PCode Machine:
     Instruction i;
