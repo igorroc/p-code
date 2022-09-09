@@ -31,7 +31,7 @@ int base(int l){
 
 int main(){
 	int _i = 0;
-    // Instructions:
+    // main():
     code[_i].f = INT; code[_i].l = 0; code[_i++].a = 5;      // Inicia memoria
     code[_i].f = LIT; code[_i].l = 0; code[_i++].a = 4;   // Configura máximo
     code[_i].f = STO; code[_i].l = 0; code[_i++].a = 5+4;   // Passa máximo por parametro da função
@@ -39,6 +39,7 @@ int main(){
     code[_i].f = LOD; code[_i].l = 0; code[_i++].a = 5+5;   // Pega o resultado
     code[_i].f = OPR; code[_i].l = 0; code[_i++].a = 0;   // FIM
 
+    // fat(x):
     code[_i].f = INT; code[_i].l = 0; code[_i++].a = 6;     // Inicia memoria
     code[_i].f = LIT; code[_i].l = 0; code[_i++].a = 1;     // Inicia contador
     code[_i].f = STO; code[_i].l = 0; code[_i++].a = 3;     // Salva contador
