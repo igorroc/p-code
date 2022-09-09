@@ -31,7 +31,7 @@ int base(int l){
 
 int main(){
 	int _i = 0;
-    // Instructions:
+    // main():
     code[_i].f = INT; code[_i].l = 0; code[_i++].a = 4;     // Inicia memoria
     code[_i].f = LIT; code[_i].l = 0; code[_i++].a = 5;     // Configura maximo
     code[_i].f = STO; code[_i].l = 0; code[_i++].a = 4+7;     // Passa maximo por parametro pra função
@@ -39,7 +39,7 @@ int main(){
     code[_i].f = LOD; code[_i].l = 0; code[_i++].a = 4+5;     // Pega o resultado
     code[_i].f = OPR; code[_i].l = 0; code[_i++].a = 0;     // FIM
 
-    // fib(x)
+    // fib(x):
     code[_i].f = INT; code[_i].l = 0; code[_i++].a = 8;     // Inicia memoria
     code[_i].f = LIT; code[_i].l = 0; code[_i++].a = 0;     // Inicia T1
     code[_i].f = STO; code[_i].l = 0; code[_i++].a = 3;     // Salva T1
