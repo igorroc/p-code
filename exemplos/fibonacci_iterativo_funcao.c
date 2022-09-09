@@ -33,8 +33,8 @@ int main(){
 	int _i = 0;
     // Instructions:
     code[_i].f = INT; code[_i].l = 0; code[_i++].a = 4;     // Inicia memoria
-    code[_i].f = LIT; code[_i].l = 0; code[_i++].a = 10;     // Configura maximo
-    code[_i].f = STO; code[_i].l = 0; code[_i++].a = 4+7;     // Salva maximo
+    code[_i].f = LIT; code[_i].l = 0; code[_i++].a = 5;     // Configura maximo
+    code[_i].f = STO; code[_i].l = 0; code[_i++].a = 4+7;     // Passa maximo por parametro pra função
     code[_i].f = CAL; code[_i].l = 0; code[_i++].a = 6;     // Chama funcao
     code[_i].f = LOD; code[_i].l = 0; code[_i++].a = 4+5;     // Pega o resultado
     code[_i].f = OPR; code[_i].l = 0; code[_i++].a = 0;     // FIM
