@@ -211,5 +211,5 @@ O funcionamento de uma instrução depende de 2 valores, o nível da função e 
 
 - [Código base](./codigo_base.c)
 - [Fatorial Iterativo](./exemplos/fatorial_iterativo_funcao.c)
-- [Fibonacci Iterativo](./exemplos/fatorial_recursivo.c)
-- [Fatorial Recursivo](./exemplos/fibonacci_iterativo_funcao.c)
+- [Fibonacci Iterativo](./exemplos/fibonacci_iterativo_funcao.c)
+- [Fatorial Recursivo](./exemplos/fatorial_recursivo.c)
