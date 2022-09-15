@@ -29,11 +29,10 @@ int base(int l){
 
 int main(){
   // Instructions:
-    const int VALOR = 5;
 
   // Main:
     code[0].f = INT; code[0].l = 0; code[0].a = 3;
-    code[1].f = LIT; code[1].l = 0; code[1].a = VALOR;     // Valor que será calculado o fatorial
+    code[1].f = LIT; code[1].l = 0; code[1].a = 5;     // Valor que será calculado o fatorial
     code[2].f = STO; code[2].l = 0; code[2].a = 3 + 3;     // Passa como parâmetro
     code[3].f = CAL; code[3].l = 0; code[3].a = 6;         // Chama a função
     code[4].f = LOD; code[4].l = 0; code[4].a = 3 + 4;     // Pega o resultado da função
@@ -43,7 +42,7 @@ int main(){
     code[6].f = INT; code[6].l = 0; code[6].a = 5;
     code[7].f = LOD; code[7].l = 0; code[7].a = 3;         // Carrega o parâmetro
     code[8].f = LIT; code[8].l = 0; code[8].a = 1;         // Carrega 1 para verificar a parada
-    code[9].f = OPR; code[9].l = 0; code[9].a = 13;        // Verifica se N é menor igual a 1
+    code[9].f = OPR; code[9].l = 0; code[9].a = 10;        // Verifica se N é menor igual a 1
     code[10].f = JPC; code[10].l = 0; code[10].a = 13;     // Se não for, vai fazer n*fatorial(n-1);
 
   // IF (n <= 1)
